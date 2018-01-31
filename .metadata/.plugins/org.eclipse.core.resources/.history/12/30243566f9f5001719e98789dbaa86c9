@@ -1,0 +1,143 @@
+/**
+ *
+ */
+
+/**
+ * @author testuser
+ *
+ */
+public class Hello {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+	int number = 88;
+	if(number <= 100){
+					if(number < 20){
+									System.out.println("未成年");
+									}else if(number == 77){
+														System.out.println("喜寿");
+														}else if(number == 88){
+																			System.out.println("米寿");
+																				}else{
+																					System.out.println("成人");
+																					}
+    int a = 5;
+    switch(a){
+    		case 0:
+    			System.out.println("aは0に等しい");
+    			break;
+    		case 1:
+    			System.out.println("aは1に等しい");
+    			break;
+    		default:
+    			System.out.println("aは0でも1でもない");
+    			}
+
+    String b = "青";
+    switch(b){
+    		case "赤":
+    			System.out.println("赤組です");
+    		break;
+
+    		case "白":
+    			System.out.println("白組です");
+    			break;
+    		default:
+    			System.out.println("エラーです");
+    			}
+
+    String [] name = new String [3];
+    name [0] = "田中";
+    name [1] = "高橋";
+    name [2] = "斉藤";
+    System.out.println(name[0]);
+
+	}
+
+	String [] d = {"田中","高橋","斉藤"};
+	System.out.println(d[0]);
+
+	char [] c = {'x','y','z'};
+	System.out.println(c[2]);
+
+	int [] i = {1,5,10};
+	System.out.println(i[1]);
+
+	String [] e = {"田中","高橋","斉藤"};
+	e[0] = "加藤";
+	System.out.println(e[0]);
+
+	String [][]  country =
+						{
+								{"日本","タイ"},
+								{"アメリカ","ブラジル"},
+								{"フランス","ロシア"}
+						};
+	System.out.println(country[2][1]);
+
+	String [][] cont = new String [3][2];
+
+	cont[0][0] = "日本";
+	cont[0][1] = "タイ";
+	cont[1][0] = "アメリカ";
+	cont[1][1] = "ブラジル";
+	cont[2][0] = "フランス";
+	cont[2][1] = "ロシア";
+	System.out.println(cont[0][0]);
+
+	for (int f = 1; f <= 5; f++){
+								System.out.println("★");
+								}
+	for (int g = 1; g <= 10; g++){
+								if(g % 2 == 0){
+											System.out.println(g +"\n");
+											}
+								}
+	for(int h = 0; h < 3; h++){
+							for(int j = 1; j <4; j++){
+													System.out.println(j);
+													}
+							System.out.println("\n");
+								}
+	int k = 10;
+	String l = k >= 0?"プラス":"マイナス";
+	System.out.println(l);
+
+	int m =2;
+	String n = m %2 == 0?"偶数":"奇数";
+	System.out.println(n);
+
+	for(int o = 0; o <= 5; o++){
+							String p = o % 2 == 0?"☆":"★";
+							System.out.println(p);
+								}
+
+	int q = 1;
+	while(q <= 5){
+				System.out.println(q);
+				q++;
+				}
+
+	int r = 0;
+	while(r <10){
+				System.out.println(r);
+				r++;
+				}
+
+	int s = 1;
+	while(s <= 5){
+				System.out.println("★");
+				s++;
+				}
+	
+	int t = 1;
+	do{
+		System.out.println(t);
+		t+=2;
+		}while(t <= 10);
+
+
+											}
+					}
